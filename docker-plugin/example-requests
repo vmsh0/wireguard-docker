@@ -1,0 +1,5 @@
+{'NetworkID': '6a07f4029fe40ab3195c55475e027ebdef5f19eb66d9a7cb0d441af9b59ca324', 'Options': {'com.docker.network.enable_ipv6': False, 'com.docker.network.generic': {}}, 'IPv4Data': [{'AddressSpace': 'LocalDefault', 'Gateway': '172.30.0.1/16', 'Pool': '172.30.0.0/16'}], 'IPv6Data': []}
+{'NetworkID': '6a07f4029fe40ab3195c55475e027ebdef5f19eb66d9a7cb0d441af9b59ca324', 'EndpointID': '397ca8d57bfe51bfbe508bf058103e6770479770e74214fff812bda0b4614d50', 'Interface': {'Address': '172.30.0.2/16', 'AddressIPv6': '', 'MacAddress': ''}, 'Options': {'com.docker.network.endpoint.exposedports': [], 'com.docker.network.portmap': []}}
+<local> - - [01/Sep/2022 18:58:14] "POST /NetworkDriver.CreateEndpoint HTTP/1.1" 200 -
+{'NetworkID': '6a07f4029fe40ab3195c55475e027ebdef5f19eb66d9a7cb0d441af9b59ca324', 'EndpointID': '397ca8d57bfe51bfbe508bf058103e6770479770e74214fff812bda0b4614d50', 'SandboxKey': '/var/run/docker/netns/77a2be330f8e', 'Options': {'com.docker.network.endpoint.exposedports': [], 'com.docker.network.portmap': []}}
+
